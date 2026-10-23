@@ -1,4 +1,4 @@
-const API_BASE = 'https://asap-laundry1.onrender.com';
+const API_BASE = 'http://127.0.0.1:8000';
 
 export const login = async (username, password) => {
   const res = await fetch(`${API_BASE}/auth/login`, {
